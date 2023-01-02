@@ -1,4 +1,4 @@
-FROM php:8.0-alpine3.15
+FROM php:8.0-alpine3.16
 
 RUN apk update && apk add icu-dev
 
